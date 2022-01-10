@@ -32,7 +32,7 @@ services:
     volumes: 
       - ./data:/var/lib/mysql
       - ./reg_dump.sql:/docker-entrypoint-initdb.d/reg_dump.sql
-
+      
 
   phpmyadmin: 
     image: "phpmyadmin:latest"
